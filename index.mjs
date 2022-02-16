@@ -1,0 +1,4 @@
+// Copyright (c) 2022 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
+/// <reference types="./index.d.ts" />
+import e from"https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-nonnegative-integer@esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-ctors@esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-filled@esm/index.mjs";import i from"https://cdn.jsdelivr.net/gh/stdlib-js/blas-ext-base-gfill@esm/index.mjs";var n=e.isPrimitive,s=t,a=r,d=i;var m=function(e,t){var r,i,m;if(!n(e))throw new TypeError("invalid argument. First argument must be a nonnegative integer. Value: `"+e+"`.");if("generic"===(r=arguments.length>2?arguments[2]:"float64"))return a(t,e);if(null===(i=s(r)))throw new TypeError("invalid argument. Third argument must be a recognized data type. Value: `"+r+"`.");return m=new i(e),d(e,t,m,1),m};export{m as default};
+//# sourceMappingURL=index.mjs.map
