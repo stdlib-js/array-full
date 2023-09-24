@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@deno/mod.js';
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.1.0-deno/mod.js';
 ```
 
 #### full( length, value\[, dtype] )
@@ -108,7 +108,7 @@ var arr = full( 2, 1, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-dtypes@deno/mod.js';
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@deno/mod.js';
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.1.0-deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
