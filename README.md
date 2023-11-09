@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-full
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs';
+var full = require( '@stdlib/array-full' );
 ```
 
 #### full( length, value\[, dtype] )
@@ -106,14 +122,9 @@ var arr = full( 2, 1, 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-dtypes@esm/index.mjs';
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs';
+```javascript
+var dtypes = require( '@stdlib/array-typed-real-dtypes' );
+var full = require( '@stdlib/array-full' );
 
 // Get a list of array data types:
 var dt = dtypes();
@@ -125,10 +136,6 @@ for ( i = 0; i < dt.length; i++ ) {
     arr = full( 5, i+1, dt[ i ] );
     console.log( arr );
 }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -147,6 +154,14 @@ for ( i = 0; i < dt.length; i++ ) {
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/array-full-like`][@stdlib/array/full-like]</span><span class="delimiter">: </span><span class="description">create a filled array having the same length and data type as a provided array.</span>
+-   <span class="package-name">[`@stdlib/array-ones`][@stdlib/array/ones]</span><span class="delimiter">: </span><span class="description">create an array filled with ones and having a specified length.</span>
+-   <span class="package-name">[`@stdlib/array-zeros`][@stdlib/array/zeros]</span><span class="delimiter">: </span><span class="description">create a zero-filled array having a specified length.</span>
+
 </section>
 
 <!-- /.related -->
@@ -160,7 +175,7 @@ for ( i = 0; i < dt.length; i++ ) {
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -221,6 +236,16 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-full/main/LICENSE
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
+
+<!-- <related-links> -->
+
+[@stdlib/array/full-like]: https://github.com/stdlib-js/array-full-like
+
+[@stdlib/array/ones]: https://github.com/stdlib-js/array-ones
+
+[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros
+
+<!-- </related-links> -->
 
 </section>
 
