@@ -18,7 +18,7 @@
 
 // TypeScript Version: 4.1
 
-/// <reference types="@stdlib/types"/>
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
 import { AnyArray, Complex128Array, Complex64Array, DataType } from '@stdlib/types/array';
 import { ComplexLike } from '@stdlib/types/complex';
