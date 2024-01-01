@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var pow = require( '@stdlib/math-base-special-pow' );
 var isTypedArrayLike = require( '@stdlib/assert-is-typed-array-like' );
 var Complex128 = require( '@stdlib/complex-float64' );
