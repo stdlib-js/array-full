@@ -39,6 +39,7 @@
   "dependencies": {
     "@stdlib/array-base-filled": "^0.1.0",
     "@stdlib/array-ctors": "^0.1.0",
+    "@stdlib/array-defaults": "^0.1.0",
     "@stdlib/assert-is-nonnegative-integer": "^0.1.0",
     "@stdlib/blas-ext-base-gfill": "^0.1.0",
     "@stdlib/string-format": "^0.1.1",
