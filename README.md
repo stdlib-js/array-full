@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-full/tags). For example,
+
+```javascript
 import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.2.0-deno/mod.js';
 ```
 
@@ -108,7 +113,7 @@ var arr = full( 2, 1, 'int32' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-dtypes@deno/mod.js';
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.2.0-deno/mod.js';
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@deno/mod.js';
 
 // Get a list of array data types:
 var dt = dtypes();
