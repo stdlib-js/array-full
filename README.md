@@ -2,7 +2,7 @@
 
 @license Apache-2.0
 
-Copyright (c) 2022 The Stdlib Authors.
+Copyright (c) 2024 The Stdlib Authors.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -45,38 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/array-full
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-full = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var full = require( 'path/to/vendor/umd/array-full/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-full@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.full;
-})();
-</script>
+var full = require( '@stdlib/array-full' );
 ```
 
 #### full( length, value\[, dtype] )
@@ -88,22 +82,7 @@ var arr = full( 2, 1.0 );
 // returns <Float64Array>[ 1.0, 1.0 ]
 ```
 
-The function recognizes the following data types:
-
--   `float64`: double-precision floating-point numbers (IEEE 754)
--   `float32`: single-precision floating-point numbers (IEEE 754)
--   `complex128`: double-precision complex floating-point numbers
--   `complex64`: single-precision complex floating-point numbers
--   `int32`: 32-bit two's complement signed integers
--   `uint32`: 32-bit unsigned integers
--   `int16`: 16-bit two's complement signed integers
--   `uint16`: 16-bit unsigned integers
--   `int8`: 8-bit two's complement signed integers
--   `uint8`: 8-bit unsigned integers
--   `uint8c`: 8-bit unsigned integers clamped to `0-255`
--   `generic`: generic JavaScript values
-
-By default, the output array data type is `float64` (i.e., a [typed array][mdn-typed-array]). To specify an alternative data type, provide a `dtype` argument.
+By default, the output array [data type][@stdlib/array/dtypes] is `float64` (i.e., a [typed array][mdn-typed-array]). To specify an alternative [data type][@stdlib/array/dtypes], provide a `dtype` argument.
 
 ```javascript
 var arr = full( 2, 1, 'int32' );
@@ -130,14 +109,9 @@ var arr = full( 2, 1, 'int32' );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-dtypes@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-full@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var dtypes = require( '@stdlib/array-typed-real-dtypes' );
+var full = require( '@stdlib/array-full' );
 
 // Get a list of array data types:
 var dt = dtypes();
@@ -149,11 +123,6 @@ for ( i = 0; i < dt.length; i++ ) {
     arr = full( 5, i+1, dt[ i ] );
     console.log( arr );
 }
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -258,13 +227,15 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
+[@stdlib/array/dtypes]: https://github.com/stdlib-js/array-dtypes
+
 <!-- <related-links> -->
 
-[@stdlib/array/full-like]: https://github.com/stdlib-js/array-full-like/tree/umd
+[@stdlib/array/full-like]: https://github.com/stdlib-js/array-full-like
 
-[@stdlib/array/ones]: https://github.com/stdlib-js/array-ones/tree/umd
+[@stdlib/array/ones]: https://github.com/stdlib-js/array-ones
 
-[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros/tree/umd
+[@stdlib/array/zeros]: https://github.com/stdlib-js/array-zeros
 
 <!-- </related-links> -->
 
