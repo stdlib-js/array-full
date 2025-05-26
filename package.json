@@ -42,7 +42,7 @@
     "@stdlib/array-defaults": "^0.3.0",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
     "@stdlib/blas-ext-base-gfill": "^0.2.1",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/types": "^0.4.3",
     "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
