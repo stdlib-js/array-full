@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-05-26)
+## Unreleased (2026-01-28)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`2c83b54`](https://github.com/stdlib-js/stdlib/commit/2c83b54c7edbcdfe83002fe8d161a6ba7ffc15f0) - **bench:** refactor to use string interpolation in `array/full` [(#9929)](https://github.com/stdlib-js/stdlib/pull/9929) _(by Sagar Ratna Chaudhary)_
 -   [`3fdfa90`](https://github.com/stdlib-js/stdlib/commit/3fdfa902945e503766b1ae4592a2d094efb0ff7f) - **feat:** add boolean dtype support to `array/full` [(#2461)](https://github.com/stdlib-js/stdlib/pull/2461) _(by Jaysukh Makvana, Athan Reines)_
 -   [`75d4f83`](https://github.com/stdlib-js/stdlib/commit/75d4f83cb85610d23a04dc21a03f8075f6d3665f) - **refactor:** update require and include paths _(by Athan Reines)_
 
@@ -35,10 +36,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Jaysukh Makvana
+-   Sagar Ratna Chaudhary
 
 </section>
 
