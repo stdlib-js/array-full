@@ -192,8 +192,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/array-full.svg
 [npm-url]: https://npmjs.org/package/@stdlib/array-full
 
-[test-image]: https://github.com/stdlib-js/array-full/actions/workflows/test.yml/badge.svg?branch=v0.3.0
-[test-url]: https://github.com/stdlib-js/array-full/actions/workflows/test.yml?query=branch:v0.3.0
+[test-image]: https://github.com/stdlib-js/array-full/actions/workflows/test.yml/badge.svg?branch=v0.3.1
+[test-url]: https://github.com/stdlib-js/array-full/actions/workflows/test.yml?query=branch:v0.3.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/array-full/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/array-full?branch=main
