@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs';
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.3.1-esm/index.mjs';
 ```
 
 #### full( length, value\[, dtype] )
@@ -98,7 +98,7 @@ var arr = full( 2, 1, 'int32' );
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-typed-real-dtypes@esm/index.mjs';
-import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@esm/index.mjs';
+import full from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-full@v0.3.1-esm/index.mjs';
 
 // Get a list of array data types:
 var dt = dtypes();
