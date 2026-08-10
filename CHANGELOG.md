@@ -2,6 +2,50 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-08-10)
+
+<section class="features">
+
+### Features
+
+-   [`7816c92`](https://github.com/stdlib-js/stdlib/commit/7816c92b5fac04969200126d7516f89cf056f7ec) - add float16 dtype support to `array/full` [(#14149)](https://github.com/stdlib-js/stdlib/pull/14149)
+
+</section>
+
+<!-- /.features -->
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7816c92`](https://github.com/stdlib-js/stdlib/commit/7816c92b5fac04969200126d7516f89cf056f7ec) - **feat:** add float16 dtype support to `array/full` [(#14149)](https://github.com/stdlib-js/stdlib/pull/14149) _(by Gururaj Gurram)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Gururaj Gurram
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.3.1">
 
 ## 0.3.1 (2026-02-08)
